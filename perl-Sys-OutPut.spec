@@ -1,8 +1,8 @@
 %include	/usr/lib/rpm/macros.perl
 %define	pdir	Sys
 %define	pnam	OutPut
-Summary:	Sys-OutPut perl module
-Summary(pl):	Modu³ perla Sys-OutPut
+Summary:	Sys::OutPut perl module
+Summary(pl):	Modu³ perla Sys::OutPut
 Name:		perl-Sys-OutPut
 Version:	2.1
 Release:	8
@@ -15,10 +15,10 @@ BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-Sys-OutPut - module to help make output easier.
+Sys::OutPut - module to help make output easier.
 
 %description -l pl
-Sys-OutPut - modu³ u³atwiaj±cy pisanie na wyj¶cie.
+Sys::OutPut - modu³ u³atwiaj±cy pisanie na wyj¶cie.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
