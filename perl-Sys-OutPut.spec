@@ -9,7 +9,7 @@ Summary:	Sys::OutPut perl module
 Summary(pl):	Modu³ perla Sys::OutPut
 Name:		perl-Sys-OutPut
 Version:	2.1
-Release:	9
+Release:	10
 License:	GPL v2+
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
