@@ -1,12 +1,11 @@
+%include	/usr/lib/rpm/macros.perl
 %define	pdir	Sys
 %define	pnam	OutPut
-%include	/usr/lib/rpm/macros.perl
 Summary:	Sys-OutPut perl module
 Summary(pl):	Modu³ perla Sys-OutPut
 Name:		perl-Sys-OutPut
 Version:	2.1
-Release:	7
-
+Release:	8
 License:	GPL
 Group:		Development/Languages/Perl
 Source0:	ftp://ftp.perl.org/pub/CPAN/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
@@ -22,7 +21,7 @@ Sys-OutPut - module to help make output easier.
 Sys-OutPut - modu³ u³atwiaj±cy pisanie na wyj¶cie.
 
 %prep
-%setup -q -n Sys-OutPut-%{version}
+%setup -q -n %{pdir}-%{pnam}-%{version}
 
 %build
 perl Makefile.PL
