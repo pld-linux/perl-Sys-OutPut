@@ -3,8 +3,8 @@
 %bcond_without	tests	# do not perform "make test"
 #
 %include	/usr/lib/rpm/macros.perl
-%define	pdir	Sys
-%define	pnam	OutPut
+%define		pdir	Sys
+%define		pnam	OutPut
 Summary:	Sys::OutPut perl module
 Summary(pl):	Modu³ perla Sys::OutPut
 Name:		perl-Sys-OutPut
