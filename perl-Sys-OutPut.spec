@@ -25,7 +25,7 @@ Sys-OutPut - modu³ u³atwiaj±cy pisanie na wyj¶cie.
 
 %build
 perl Makefile.PL
-make
+%{__make}
 
 %install
 rm -rf $RPM_BUILD_ROOT
