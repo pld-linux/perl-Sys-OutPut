@@ -1,3 +1,7 @@
+#
+# Conditional build:
+%bcond_without	tests	# do not perform "make test"
+#
 %include	/usr/lib/rpm/macros.perl
 %define	pdir	Sys
 %define	pnam	OutPut
@@ -6,7 +10,7 @@ Summary(pl):	Modu³ perla Sys::OutPut
 Name:		perl-Sys-OutPut
 Version:	2.1
 Release:	9
-License:	GPL
+License:	GPL v2+
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	abcb37e8cfdd3a137902fba609b78467
@@ -29,10 +33,13 @@ Sys::OutPut - modu³ u³atwiaj±cy pisanie na wyj¶cie.
 	INSTALLDIRS=vendor
 %{__make}
 
+%{?with_tests:%{__make} test}
+
 %install
 rm -rf $RPM_BUILD_ROOT
 
-%{__make} install DESTDIR=$RPM_BUILD_ROOT
+%{__make} install \
+	DESTDIR=$RPM_BUILD_ROOT
 
 %clean
 rm -rf $RPM_BUILD_ROOT
