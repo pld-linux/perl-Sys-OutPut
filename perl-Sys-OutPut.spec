@@ -26,7 +26,7 @@ Sys::OutPut - modu³ u³atwiaj±cy pisanie na wyj¶cie.
 
 %build
 %{__perl} Makefile.PL \
-	INSTALLDIRS=vendor 
+	INSTALLDIRS=vendor
 %{__make}
 
 %install
