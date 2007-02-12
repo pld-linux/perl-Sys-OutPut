@@ -6,7 +6,7 @@
 %define		pdir	Sys
 %define		pnam	OutPut
 Summary:	Sys::OutPut perl module
-Summary(pl):	Modu≥ perla Sys::OutPut
+Summary(pl.UTF-8):   Modu≈Ç perla Sys::OutPut
 Name:		perl-Sys-OutPut
 Version:	2.1
 Release:	10
@@ -22,8 +22,8 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %description
 Sys::OutPut - module to help make output easier.
 
-%description -l pl
-Sys::OutPut - modu≥ u≥atwiaj±cy pisanie na wyj∂cie.
+%description -l pl.UTF-8
+Sys::OutPut - modu≈Ç u≈ÇatwiajƒÖcy pisanie na wyj≈õcie.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
