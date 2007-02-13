@@ -6,7 +6,7 @@
 %define		pdir	Sys
 %define		pnam	OutPut
 Summary:	Sys::OutPut perl module
-Summary(pl.UTF-8):   Moduł perla Sys::OutPut
+Summary(pl.UTF-8):	Moduł perla Sys::OutPut
 Name:		perl-Sys-OutPut
 Version:	2.1
 Release:	10
