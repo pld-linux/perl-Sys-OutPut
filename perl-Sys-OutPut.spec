@@ -4,7 +4,6 @@
 
 %define		pdir	Sys
 %define		pnam	OutPut
-%include	/usr/lib/rpm/macros.perl
 Summary:	Sys::OutPut perl module
 Summary(pl.UTF-8):	Moduł perla Sys::OutPut
 Name:		perl-Sys-OutPut
